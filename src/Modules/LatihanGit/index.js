@@ -19,6 +19,12 @@ class ShoppingList extends React.Component {
           <li>Keqing</li>
           <li>Yelan</li>
         </ul>
+        <ul>
+        <h1>Feature B List Makanan Kesukaan</h1>
+          <li>Mie Ayam</li>
+          <li>Nasi Goreng</li>
+          <li>Soto</li>
+        </ul>
       </div>
     );
   }
