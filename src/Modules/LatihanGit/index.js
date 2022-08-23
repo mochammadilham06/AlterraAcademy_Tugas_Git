@@ -13,6 +13,12 @@ class ShoppingList extends React.Component {
           <li>WhatsApp</li>
           <li>Oculus</li>
         </ul>
+        <ul>
+        <h1>Feature A List Karakter</h1>
+          <li>Ayaka</li>
+          <li>Keqing</li>
+          <li>Yelan</li>
+        </ul>
       </div>
     );
   }
