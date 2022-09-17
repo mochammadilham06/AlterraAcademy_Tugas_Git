@@ -1,17 +1,13 @@
+import React from "react";
+import ProfilePage from "./Modules/Profile/ProfilePage";
+import { mockUser } from "./API/mockData";
 
-import './Modules/LatihanGit/index.js';
-import React from 'react';
-import ShoppingList from './Modules/LatihanGit/index.js';
-
-
-class Index extends React.Component {
-  render() {
-    return (
-      <div className="shopping-list">
-        <ShoppingList/>
-      </div>
-    );
-  }
+function App(props) {
+  return (
+    <div>
+      <ProfilePage users={mockUser} />
+    </div>
+  );
 }
 
-export default Index
+export default App;
